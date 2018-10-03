@@ -5,7 +5,7 @@ count=0
 a=list(map(int,input().split()))
 for i in range(n-1):
     if a[i]>=a[i+1]:   
-           count+=math.ceil(((a[i]-a[i+1])+1)/m)
+           count+=math.ceil(((a[i]-a[i+1])+1)/m)      #DGFDRT
            a[i+1]+=m*math.ceil(((a[i]-a[i+1])+1)/m)        
 print(count)            
     
